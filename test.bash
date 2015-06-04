@@ -15,10 +15,10 @@ ERROR_EXIT () {
 # TEST
 #################################################
 
-# 引数
-if [ $# -lt 2 ] ; then
-	ERROR_EXIT "TEST-ARG-1"
-fi
+## 引数
+# if [ $# -lt 2 ] ; then
+#	ERROR_EXIT "TEST-ARG-1"
+# fi
 
 # 処理
 echo aaa bbb NG > $tmp-ans
